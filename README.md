@@ -192,6 +192,91 @@ An agricultural spraying drone uses cascaded PIDs to stay steady despite externa
 
 - Sudden wind gusts are mitigated by the derivative component, damping rapid oscillations.
 - This ensures consistent spray coverage, crucial in precision agriculture.
+#### Major Learning :
+Learnings from the resource provided in the syllabus. 
+#### PID
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-19%20085459.png?raw=true)
+#### P 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20184244.png?raw=true)
+#### Steady State Error 
+Steady-state error is the final difference between the desired output (reference input) and the actual output of a system after all transients have died out.
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-19%20090133.png?raw=true)
+#### I
+Steady-state error can be overcome by using an integrator (Integral action). 
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20184908.png?raw=true)
+#### D 
+#### Transient Error 
+Transient error is the temporary error that exists during the transition period when a system output is moving from its initial value to the desired value.
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20185545.png?raw=true)
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-19%20091105.png?raw=true)
+#### Anti Windup for PID 
+Anti-windup in a PID controller is a technique used to prevent the integral term from becoming excessively large when the controller output is saturated (limited by actuator constraints).
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20190150.png?raw=true)
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20190038.png?raw=true)
+
+The clamping method stops the integral term from increasing when the controller output hits its saturation limit.
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-20%20190601.png?raw=true)
+
+#### Noise Filtering in PID controller 
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-21%20123509.png?raw=true)
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-21%20123659.png?raw=true)
+
+#### PID Tuning 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-21%20145514.png?raw=true) 
+
+#### Model for Control system 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-21%20172442.png?raw=true)
+
+## Comparison of Modelling Methods in PID Control
+
+| Modelling Method | Knowledge Used | Accuracy | Complexity | Typical Use in PID |
+|-----------------|---------------|----------|------------|--------------------|
+| Mathematical (First-Principles) | Complete physical laws | High | High | Precise PID design and stability analysis |
+| Gray-box | Partial physical knowledge + experimental data | Medium–High | Medium | Practical PID tuning in real systems |
+| System Identification (Black-box) | Input–output data only | Medium | Low–Medium | PID auto-tuning and industrial control |
+# TASK 6 : ROS 2 
+**Objective :** \
+ To get started with the Robot Operating System (ROS) 2 ecosystem and understand its application in UAV communication through node-based architecture.
+
+ **Task :**
+ - Install and set up Ubuntu 22.04 and ROS 2 Humble Hawksbill. 
+- Learn the basics of: 
+   -  Nodes 
+    - Topics
+    - Publishers
+    - Subscribers
+- Create a Publisher Node that sends fake drone altitude data.
+- Create a Subscriber Node that reads and displays this altitude data in real-time (OPTIONAL)
+- Modify the Publisher node to also publish Battery Level data along with the altitude.
+
+### NODE 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20161112.png?raw=true)
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20161300.png?raw=true) 
+
+### Topic 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20161604.png?raw=true)
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20161726.png?raw=true) 
+
+### Publisher 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20162006.png?raw=true)
+
+### Subscriber 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20162228.png?raw=true) 
+
+[Click Here](https://youtu.be/dEkr30zac4U) to watch video of completion ROS 2 task
+
+
+
+
 
 
 
