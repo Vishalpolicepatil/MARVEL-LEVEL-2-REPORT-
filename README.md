@@ -275,12 +275,42 @@ The clamping method stops the integral term from increasing when the controller 
 ![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20162228.png?raw=true) 
 
 [Click Here](https://youtu.be/dEkr30zac4U) to watch video of completion ROS 2 task
+# TASK 7 : UAV Assembly & Flight Controller Configuration 
 
+**Objective :** \
+To collaboratively assemble and configure a fully functional quadcopter with GPS, receiver, and flight controller integration.
 
+**Learnings :** 
+1. Selection of the components. 
 
+2. Calculation of the weight. 
 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20223402.png?raw=true) 
 
+3. Calculation of the weight to thrust ratio. 
 
+**Components Selected :** 
+1. **Motor :** A2212 1000kv 
 
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/2212_Drone_Motor_SunRobotics_in.webp?raw=true) 
 
-**THANK YOU**
+2. **ESC(ELECTRONIC SPEED CONTROLLER) :** 30A Simonk 
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20224516.png?raw=true)
+
+3. **Battery :** 5400mah LiPO
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/Screenshot%202026-01-22%20224913.png?raw=true) 
+
+4. **Flight Controller :** Radiolink Cross flight controller.
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/61veOQMZzgL._AC_UF1000,1000_QL80_.jpg?raw=true) 
+
+5. **Propellers :** 1045 carbon fiber propellers 
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/1_a165aad3-4dfe-4070-818e-d67ffbd26ed0.webp?raw=true)
+
+6. **Frame :** F450 carbon fiber frame 
+
+![](https://github.com/Vishalpolicepatil/MARVEL-LEVEL-2-REPORT-/blob/main/download.webp?raw=true)
+    **THANK YOU**
